@@ -1,0 +1,21 @@
+
+	
+
+def main():
+	a = ["vivek","vivek","Tushar","Praveen","Tushar"]
+	len1 = len(a)
+	i = 0
+	for i in range(i,len1):
+		j = i + 1
+		len1 = len(a)
+		for j in range(j,len1-1):
+			if (a[i] == a [j]):
+				a.pop(j)
+				len1 = len(a)
+	print "after everything" , a					
+				
+					
+		
+	
+if __name__ == '__main__': main()
+	

@@ -1,0 +1,14 @@
+def fibonacchi(n):
+	a,b = 0,1
+	
+	while b<n:
+		print a,b,
+		a=a+b
+		b=b+a	
+	else:
+		print "Values of B",b
+	
+if __name__ == "__main__":
+	n=input("Daal kuch to bhi")
+	fibonacchi(n)
+	

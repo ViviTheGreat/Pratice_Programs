@@ -1,0 +1,17 @@
+#Lets try a generator function
+
+def main():
+	
+	for j in some_generator():
+		print j
+		
+		
+def some_generator():
+	i = 0
+	while i<=10:
+		print ("Prints yield i:",i)
+		yield i
+		i = i + 1
+
+if __name__ == "__main__":main()
+	

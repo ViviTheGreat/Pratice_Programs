@@ -1,0 +1,15 @@
+def reverseNumber(number):
+	reverse = 0
+	while(number>0):
+		mod = number % 10
+		reverse = reverse*10 + mod
+		number = number/10
+	return reverse
+
+def main():
+	number = input("Enter the value:")
+	print("Reverse is:",reverseNumber(number))
+	
+if __name__ == '__main__': main()
+	
+	

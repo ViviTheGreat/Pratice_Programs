@@ -1,0 +1,21 @@
+
+def nPr(n,r):
+	return (factorial(n)/factorial(n-r))
+
+def nCr(n,r):
+	return (factorial(n)/(factorial(n-r)*factorial(r)))
+	
+def main():
+	n = input("Enter n:")
+	r = input("Enter r:")
+	print ("nPr is: ",nPr(n,r))
+	print ("nCr is:",nCr(n,r))
+
+def factorial(num):
+	number = num
+	for i in range ((number-1),1,-1):
+		num *=i
+	return num
+	
+	
+if __name__ == "__main__": main()

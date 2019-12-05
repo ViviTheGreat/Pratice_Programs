@@ -1,0 +1,22 @@
+def main():
+	flag = 0
+	for i in range(3,10):
+		for j in range(2,(i+2)/2):
+			flag = 0
+			if(i%j==0):
+				print(i,"Not a prime")
+				findFactors(i)
+				flag = 1
+				break
+			else:
+				flag = 0
+		if (flag == 0): print(i,"is Prime")
+			
+def findFactors(num):
+	print (num,"has following factors:",)
+	for i in range(1,num):
+		if(num%i==0):
+			print i,
+	
+				 
+if __name__ == "__main__" : main()
