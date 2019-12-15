@@ -1,0 +1,23 @@
+1.Write a program to print duplicate character of the string
+2.Write a programs to check if two strings are anagrams or not
+3.Write a program to count number of words in a string.
+4.Write a program to count number of character in a string without using loop.
+5.Write a program to reserve a string.
+6.Write a program to remove all the white spaces in the string
+7.Write a program to print first non repeating character in a string
+8.Write a program to reserve a string using iteration and recursion
+9.Write a program to check if string contains only digits
+10.Write a program to reserve a string preserving the spaces
+11.Write a program to reserve each word of string 
+12.Write a program to count number of vowels and consonants in a given string
+13.Write a program to convert string to integer and integer to string
+14.Write a program to find permutation of all the string
+15.Write a program to check if a string is a palindrome.
+16.Write a program to remove duplicate character from a string
+17.Write a program to append a string to a text file
+18.Write a program to check if a string contains another string
+19.Write a program to remove a given character from a string
+20.Write a program to sort a string
+21.Write a program to find most repeated word in a text file
+22.Write a program to find first repeated and non repeated character
+23.Write a program to find number of character , number of lines and number of lines in a text file.
