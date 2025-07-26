@@ -12,7 +12,7 @@ def main():
 			if (a[i] == a [j]):
 				a.pop(j)
 				len1 = len(a)
-	print "after everything" , a					
+	print ("after everything") , a					
 				
 					
 		

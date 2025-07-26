@@ -1,0 +1,25 @@
+import random
+x = random.randint(1,20) # This is thinking of Random number
+print("Think of a random number: ")
+def main():
+	for i in range(1,7):
+		n = input("Enter the number you have "+ str(7-i) + " attempts remaining : ")
+		status = checkRandom(int(n))
+		if status=='True':
+			break
+	if status == "True":
+		print("Number is "+ str(n) + "  Congr8tsssss")
+	else:
+		print (" Secret Number was: " + str(x))
+
+def checkRandom(number):
+	#print "Random is thinking of " + str(x)	
+	if x > number:
+		print ("Number is Higher")
+	elif x < number:
+		print ("Number is Lower")
+	else:
+		return "True"
+	 	
+if __name__ == "__main__":
+	main()
